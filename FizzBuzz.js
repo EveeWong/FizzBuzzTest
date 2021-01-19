@@ -10,6 +10,8 @@ for (let i =1; i <= 255; i++) {
         console.log('FizzFezzBuzzBang')
     } else if (i % 3 === 0 && i % 5 === 0 && i % 7 === 0) { 
         console.log('FizzBuzzBang')
+    } else if (i % 3 === 0 && i % 5 === 0 && i % 13 === 0) {
+        console.log('FizzFezzBuzz')
     } else if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz') 
     } else if (i % 3 === 0 && i % 7 === 0) {
